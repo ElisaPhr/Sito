@@ -1,0 +1,2697 @@
+{
+    "A Tale of Two Cities": {
+        "Info": {
+            "Author": "C. Dickens",
+            "Year": "1859",
+            "Genre": "Historical",
+            "Cover": "images/a tale of two cities.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.78,
+                    "lists_result": 0.82,
+                    "bert_result": 0.83,
+                    "fn_result": 0.43
+                }
+            },
+            {
+                "Title": "The Mistery of Edwin Drood and Other Stories",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1870",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Mistery of Edwin Drood and Other Stories.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.74,
+                    "lists_result": 0.79,
+                    "bert_result": 0.7,
+                    "fn_result": 0.55
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.7,
+                    "lists_result": 0.74,
+                    "bert_result": 0.73,
+                    "fn_result": 0.38
+                }
+            }
+        ]
+    },
+    "Anne of Avonlea": {
+        "Info": {
+            "Author": "L.M. Montgomery",
+            "Year": "1909",
+            "Genre": "for Kids",
+            "Cover": "images/Anne of Avonlea.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Anne of Green Gables",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1908",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Green Gables.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.78,
+                    "lists_result": 0.85,
+                    "bert_result": 0.65,
+                    "fn_result": 0.76
+                }
+            },
+            {
+                "Title": "Anne's House of Dreams",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1917",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne's House of Dreams.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.68,
+                    "bert_result": 0.68,
+                    "fn_result": 0.65
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.71,
+                    "bert_result": 0.59,
+                    "fn_result": 0.53
+                }
+            }
+        ]
+    },
+    "Anne of Green Gables": {
+        "Info": {
+            "Author": "L.M. Montgomery",
+            "Year": "1908",
+            "Genre": "for Kids",
+            "Cover": "images/Anne of Green Gables.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Anne of Avonlea",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1909",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Avonlea.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.78,
+                    "lists_result": 0.85,
+                    "bert_result": 0.65,
+                    "fn_result": 0.76
+                }
+            },
+            {
+                "Title": "Anne's House of Dreams",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1917",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne's House of Dreams.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.72,
+                    "lists_result": 0.71,
+                    "bert_result": 0.75,
+                    "fn_result": 0.71
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.7,
+                    "lists_result": 0.71,
+                    "bert_result": 0.7,
+                    "fn_result": 0.65
+                }
+            }
+        ]
+    },
+    "Anne's House of Dreams": {
+        "Info": {
+            "Author": "L.M. Montgomery",
+            "Year": "1917",
+            "Genre": "for Kids",
+            "Cover": "images/Anne's House of Dreams.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Anne of Green Gables",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1908",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Green Gables.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.72,
+                    "lists_result": 0.71,
+                    "bert_result": 0.75,
+                    "fn_result": 0.71
+                }
+            },
+            {
+                "Title": "Anne of Avonlea",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1909",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Avonlea.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.68,
+                    "bert_result": 0.68,
+                    "fn_result": 0.65
+                }
+            },
+            {
+                "Title": "Rainbow Valley",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1919",
+                    "Genre": "for Kids",
+                    "Cover": "images/Rainbow Valley.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.65,
+                    "bert_result": 0.79,
+                    "fn_result": 0.51
+                }
+            }
+        ]
+    },
+    "Captains Courageous: A Story of the Grand Banks": {
+        "Info": {
+            "Author": "R. Kipling",
+            "Year": "1897",
+            "Genre": "Adventure",
+            "Cover": "images/Captains Courageous A Story of the Grand Banks.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Moby Dick",
+                "Info": {
+                    "Author": "H. Melville",
+                    "Year": "1851",
+                    "Genre": "Adventure",
+                    "Cover": "images/Moby Dick.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.55,
+                    "bert_result": 0.71,
+                    "fn_result": 0.73
+                }
+            },
+            {
+                "Title": "The Pickwick Papers",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1836",
+                    "Genre": "Novel",
+                    "Cover": "images/The Pickwick Papers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.56,
+                    "lists_result": 0.49,
+                    "bert_result": 0.7,
+                    "fn_result": 0.51
+                }
+            },
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.53,
+                    "lists_result": 0.44,
+                    "bert_result": 0.68,
+                    "fn_result": 0.59
+                }
+            }
+        ]
+    },
+    "Emily of New Moon": {
+        "Info": {
+            "Author": "L.M. Montgomery",
+            "Year": "1923",
+            "Genre": "for Kids",
+            "Cover": "images/Emily of New Moon.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Anne of Green Gables",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1908",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Green Gables.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.69,
+                    "lists_result": 0.65,
+                    "bert_result": 0.74,
+                    "fn_result": 0.74
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.65,
+                    "lists_result": 0.63,
+                    "bert_result": 0.71,
+                    "fn_result": 0.6
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.65,
+                    "lists_result": 0.57,
+                    "bert_result": 0.78,
+                    "fn_result": 0.76
+                }
+            }
+        ]
+    },
+    "Fables": {
+        "Info": {
+            "Author": "J. de La Fontaine",
+            "Year": "1668",
+            "Genre": "Fantasy",
+            "Cover": "images/Fables,J. de La Fontaine.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Tennyson's Idylls of the King",
+                "Info": {
+                    "Author": "A. Tennyson",
+                    "Year": "1859",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Tennyson's Idylls of the King.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.55,
+                    "lists_result": 0.52,
+                    "bert_result": 0.63,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.54,
+                    "lists_result": 0.44,
+                    "bert_result": 0.73,
+                    "fn_result": 0.54
+                }
+            },
+            {
+                "Title": "God's Good Man. A Simple Love Story",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1904",
+                    "Genre": "Gothic",
+                    "Cover": "images/God's Good Man. A Simple Love Story.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.54,
+                    "lists_result": 0.52,
+                    "bert_result": 0.51,
+                    "fn_result": 0.73
+                }
+            }
+        ]
+    },
+    "Fantastic Fables": {
+        "Info": {
+            "Author": "A. Bierce",
+            "Year": "1899",
+            "Genre": "Fantasy",
+            "Cover": "images/Fantastic Fables.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Fables",
+                "Info": {
+                    "Author": "J. de La Fontaine",
+                    "Year": "1668",
+                    "Genre": "Fantasy",
+                    "Cover": "images/Fables,J. de La Fontaine.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.53,
+                    "lists_result": 0.55,
+                    "bert_result": 0.55,
+                    "fn_result": 0.35
+                }
+            },
+            {
+                "Title": "The Vicomte de Bragelonne",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1847",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte de Bragelonne.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.53,
+                    "lists_result": 0.52,
+                    "bert_result": 0.56,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "The Confessions",
+                "Info": {
+                    "Author": "J.J. Rousseau",
+                    "Year": "1790",
+                    "Genre": "Autobiography",
+                    "Cover": "images/The Confessions.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.52,
+                    "lists_result": 0.55,
+                    "bert_result": 0.48,
+                    "fn_result": 0.41
+                }
+            }
+        ]
+    },
+    "God's Good Man. A Simple Love Story": {
+        "Info": {
+            "Author": "M. Corelli",
+            "Year": "1904",
+            "Genre": "Gothic",
+            "Cover": "images/God's Good Man. A Simple Love Story.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.76,
+                    "lists_result": 0.85,
+                    "bert_result": 0.67,
+                    "fn_result": 0.5
+                }
+            },
+            {
+                "Title": "WormWood a Drama of Paris",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1890",
+                    "Genre": "Victorian",
+                    "Cover": "images/WormWood a Drama of Paris.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.67,
+                    "lists_result": 0.74,
+                    "bert_result": 0.57,
+                    "fn_result": 0.59
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.65,
+                    "bert_result": 0.7,
+                    "fn_result": 0.64
+                }
+            }
+        ]
+    },
+    "Letters of Anton Chekhov to his Family and Friends": {
+        "Info": {
+            "Author": "A.P. Chekhov",
+            "Year": "1920",
+            "Genre": "Collection",
+            "Cover": "images/Letters of Anton Chekhov to his Family and Friends.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Confessions",
+                "Info": {
+                    "Author": "J.J. Rousseau",
+                    "Year": "1790",
+                    "Genre": "Autobiography",
+                    "Cover": "images/The Confessions.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.58,
+                    "lists_result": 0.65,
+                    "bert_result": 0.48,
+                    "fn_result": 0.41
+                }
+            },
+            {
+                "Title": "The Lady of the Camellias",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1852",
+                    "Genre": "Tragedy",
+                    "Cover": "images/The Lady of the Camellias.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.51,
+                    "lists_result": 0.55,
+                    "bert_result": 0.45,
+                    "fn_result": 0.41
+                }
+            },
+            {
+                "Title": "The Jungle",
+                "Info": {
+                    "Author": "U. Sinclair",
+                    "Year": "1906",
+                    "Genre": "Political Fiction",
+                    "Cover": "images/The Jungle.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.51,
+                    "lists_result": 0.57,
+                    "bert_result": 0.33,
+                    "fn_result": 0.66
+                }
+            }
+        ]
+    },
+    "Little Women": {
+        "Info": {
+            "Author": "L.M. Alcott",
+            "Year": "1868",
+            "Genre": "Coming-of-Age",
+            "Cover": "images/Little Women,L.M. Alcott.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.75,
+                    "lists_result": 0.79,
+                    "bert_result": 0.69,
+                    "fn_result": 0.65
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.73,
+                    "lists_result": 0.76,
+                    "bert_result": 0.75,
+                    "fn_result": 0.45
+                }
+            },
+            {
+                "Title": "Anne of Green Gables",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1908",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Green Gables.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.7,
+                    "lists_result": 0.71,
+                    "bert_result": 0.7,
+                    "fn_result": 0.65
+                }
+            }
+        ]
+    },
+    "Our Mutual Friend": {
+        "Info": {
+            "Author": "C. Dickens",
+            "Year": "1864",
+            "Genre": "Novel",
+            "Cover": "images/Our Mutual Friend.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.83,
+                    "lists_result": 0.9,
+                    "bert_result": 0.82,
+                    "fn_result": 0.45
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.83,
+                    "lists_result": 0.87,
+                    "bert_result": 0.83,
+                    "fn_result": 0.58
+                }
+            },
+            {
+                "Title": "The Mistery of Edwin Drood and Other Stories",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1870",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Mistery of Edwin Drood and Other Stories.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.82,
+                    "lists_result": 0.85,
+                    "bert_result": 0.81,
+                    "fn_result": 0.69
+                }
+            }
+        ]
+    },
+    "Phaedo or the Immortality of the Soul": {
+        "Info": {
+            "Author": "Plato",
+            "Year": "IV sec. a.C.",
+            "Genre": "Philosophy",
+            "Cover": "images/Phaedo or the Immortality of the Soul.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Republic",
+                "Info": {
+                    "Author": "Plato",
+                    "Year": "IV sec. a.C.",
+                    "Genre": "Philosophy",
+                    "Cover": "images/The Republic.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.53,
+                    "lists_result": 0.49,
+                    "bert_result": 0.62,
+                    "fn_result": 0.45
+                }
+            },
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.46,
+                    "lists_result": 0.35,
+                    "bert_result": 0.71,
+                    "fn_result": 0.37
+                }
+            },
+            {
+                "Title": "WormWood a Drama of Paris",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1890",
+                    "Genre": "Victorian",
+                    "Cover": "images/WormWood a Drama of Paris.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.44,
+                    "lists_result": 0.41,
+                    "bert_result": 0.46,
+                    "fn_result": 0.57
+                }
+            }
+        ]
+    },
+    "Rainbow Valley": {
+        "Info": {
+            "Author": "L.M. Montgomery",
+            "Year": "1919",
+            "Genre": "for Kids",
+            "Cover": "images/Rainbow Valley.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Anne's House of Dreams",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1917",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne's House of Dreams.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.65,
+                    "bert_result": 0.79,
+                    "fn_result": 0.51
+                }
+            },
+            {
+                "Title": "Anne of Avonlea",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1909",
+                    "Genre": "for Kids",
+                    "Cover": "images/Anne of Avonlea.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.64,
+                    "lists_result": 0.65,
+                    "bert_result": 0.68,
+                    "fn_result": 0.5
+                }
+            },
+            {
+                "Title": "Emily of New Moon",
+                "Info": {
+                    "Author": "L.M. Montgomery",
+                    "Year": "1923",
+                    "Genre": "for Kids",
+                    "Cover": "images/Emily of New Moon.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.61,
+                    "lists_result": 0.57,
+                    "bert_result": 0.77,
+                    "fn_result": 0.4
+                }
+            }
+        ]
+    },
+    "The Vicomte of Bragelonne: Ten Years Later": {
+        "Info": {
+            "Author": "A. Dumas",
+            "Year": "1850",
+            "Genre": "Historical",
+            "Cover": "images/The Vicomte of Bragelonne Ten Years Later.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Vicomte de Bragelonne",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1847",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte de Bragelonne.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.72,
+                    "lists_result": 0.76,
+                    "bert_result": 0.76,
+                    "fn_result": 0.36
+                }
+            },
+            {
+                "Title": "The Three Musketeers",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1844",
+                    "Genre": "Adventure",
+                    "Cover": "images/The Three Musketeers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.71,
+                    "lists_result": 0.71,
+                    "bert_result": 0.78,
+                    "fn_result": 0.54
+                }
+            },
+            {
+                "Title": "The Regent's Daughter",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1845",
+                    "Genre": "Historical",
+                    "Cover": "images/The Regent's Daughter.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.64,
+                    "lists_result": 0.6,
+                    "bert_result": 0.78,
+                    "fn_result": 0.46
+                }
+            }
+        ]
+    },
+    "Tennyson's Idylls of the King": {
+        "Info": {
+            "Author": "A. Tennyson",
+            "Year": "1859",
+            "Genre": "Epic Poem",
+            "Cover": "images/Tennyson's Idylls of the King.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.52,
+                    "bert_result": 0.77,
+                    "fn_result": 0.74
+                }
+            },
+            {
+                "Title": "WormWood a Drama of Paris",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1890",
+                    "Genre": "Victorian",
+                    "Cover": "images/WormWood a Drama of Paris.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.6,
+                    "lists_result": 0.63,
+                    "bert_result": 0.56,
+                    "fn_result": 0.53
+                }
+            },
+            {
+                "Title": "The Three Musketeers",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1844",
+                    "Genre": "Adventure",
+                    "Cover": "images/The Three Musketeers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.59,
+                    "lists_result": 0.55,
+                    "bert_result": 0.62,
+                    "fn_result": 0.74
+                }
+            }
+        ]
+    },
+    "The Confessions": {
+        "Info": {
+            "Author": "J.J. Rousseau",
+            "Year": "1790",
+            "Genre": "Autobiography",
+            "Cover": "images/The Confessions.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.6,
+                    "lists_result": 0.6,
+                    "bert_result": 0.58,
+                    "fn_result": 0.67
+                }
+            },
+            {
+                "Title": "Letters of Anton Chekhov to his Family and Friends",
+                "Info": {
+                    "Author": "A.P. Chekhov",
+                    "Year": "1920",
+                    "Genre": "Collection",
+                    "Cover": "images/Letters of Anton Chekhov to his Family and Friends.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.58,
+                    "lists_result": 0.65,
+                    "bert_result": 0.48,
+                    "fn_result": 0.41
+                }
+            },
+            {
+                "Title": "WormWood a Drama of Paris",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1890",
+                    "Genre": "Victorian",
+                    "Cover": "images/WormWood a Drama of Paris.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.55,
+                    "bert_result": 0.59,
+                    "fn_result": 0.61
+                }
+            }
+        ]
+    },
+    "The Decameron": {
+        "Info": {
+            "Author": "G. Boccaccio",
+            "Year": "1620",
+            "Genre": "Frame Story",
+            "Cover": "images/The Decameron.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.58,
+                    "lists_result": 0.55,
+                    "bert_result": 0.63,
+                    "fn_result": 0.59
+                }
+            },
+            {
+                "Title": "The Confessions",
+                "Info": {
+                    "Author": "J.J. Rousseau",
+                    "Year": "1790",
+                    "Genre": "Autobiography",
+                    "Cover": "images/The Confessions.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.57,
+                    "bert_result": 0.57,
+                    "fn_result": 0.6
+                }
+            },
+            {
+                "Title": "Persuasion",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1818",
+                    "Genre": "Historical",
+                    "Cover": "images/Persuasion.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.56,
+                    "lists_result": 0.49,
+                    "bert_result": 0.62,
+                    "fn_result": 0.77
+                }
+            }
+        ]
+    },
+    "The Jungle": {
+        "Info": {
+            "Author": "U. Sinclair",
+            "Year": "1906",
+            "Genre": "Political Fiction",
+            "Cover": "images/The Jungle.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "A Tale of Two Cities",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1859",
+                    "Genre": "Historical",
+                    "Cover": "images/a tale of two cities.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.65,
+                    "lists_result": 0.65,
+                    "bert_result": 0.7,
+                    "fn_result": 0.49
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.6,
+                    "bert_result": 0.7,
+                    "fn_result": 0.61
+                }
+            },
+            {
+                "Title": "The Wisdom of Father Brown",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1914",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Wisdom of Father Brown.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.59,
+                    "lists_result": 0.57,
+                    "bert_result": 0.59,
+                    "fn_result": 0.67
+                }
+            }
+        ]
+    },
+    "The Lady of the Camellias": {
+        "Info": {
+            "Author": "A. Dumas",
+            "Year": "1852",
+            "Genre": "Tragedy",
+            "Cover": "images/The Lady of the Camellias.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Three Musketeers",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1844",
+                    "Genre": "Adventure",
+                    "Cover": "images/The Three Musketeers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.65,
+                    "bert_result": 0.69,
+                    "fn_result": 0.64
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.65,
+                    "bert_result": 0.75,
+                    "fn_result": 0.49
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.65,
+                    "lists_result": 0.63,
+                    "bert_result": 0.75,
+                    "fn_result": 0.47
+                }
+            }
+        ]
+    },
+    "The Kreutzer Sonata": {
+        "Info": {
+            "Author": "L. Tolstoy",
+            "Year": "1889",
+            "Genre": "Philosophical Fiction",
+            "Cover": "images/The Kreutzer Sonata.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.5,
+                    "lists_result": 0.44,
+                    "bert_result": 0.65,
+                    "fn_result": 0.45
+                }
+            },
+            {
+                "Title": "The Decameron",
+                "Info": {
+                    "Author": "G. Boccaccio",
+                    "Year": "1620",
+                    "Genre": "Frame Story",
+                    "Cover": "images/The Decameron.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.5,
+                    "lists_result": 0.44,
+                    "bert_result": 0.56,
+                    "fn_result": 0.71
+                }
+            },
+            {
+                "Title": "The Lady of the Camellias",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1852",
+                    "Genre": "Tragedy",
+                    "Cover": "images/The Lady of the Camellias.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.47,
+                    "lists_result": 0.38,
+                    "bert_result": 0.64,
+                    "fn_result": 0.48
+                }
+            }
+        ]
+    },
+    "The Mistery of Edwin Drood and Other Stories": {
+        "Info": {
+            "Author": "C. Dickens",
+            "Year": "1870",
+            "Genre": "Mistery",
+            "Cover": "images/The Mistery of Edwin Drood and Other Stories.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.82,
+                    "lists_result": 0.85,
+                    "bert_result": 0.81,
+                    "fn_result": 0.69
+                }
+            },
+            {
+                "Title": "A Tale of Two Cities",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1859",
+                    "Genre": "Historical",
+                    "Cover": "images/a tale of two cities.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.74,
+                    "lists_result": 0.79,
+                    "bert_result": 0.7,
+                    "fn_result": 0.55
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.74,
+                    "lists_result": 0.79,
+                    "bert_result": 0.73,
+                    "fn_result": 0.47
+                }
+            }
+        ]
+    },
+    "The Monk and the Hangman's Daughter": {
+        "Info": {
+            "Author": "A. Bierce",
+            "Year": "1891",
+            "Genre": "Mistery",
+            "Cover": "images/The Monk and the Hangman's Daughter.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "WormWood a Drama of Paris",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1890",
+                    "Genre": "Victorian",
+                    "Cover": "images/WormWood a Drama of Paris.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.6,
+                    "bert_result": 0.64,
+                    "fn_result": 0.77
+                }
+            },
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.58,
+                    "lists_result": 0.57,
+                    "bert_result": 0.63,
+                    "fn_result": 0.48
+                }
+            },
+            {
+                "Title": "A Tale of Two Cities",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1859",
+                    "Genre": "Historical",
+                    "Cover": "images/a tale of two cities.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.56,
+                    "lists_result": 0.55,
+                    "bert_result": 0.59,
+                    "fn_result": 0.54
+                }
+            }
+        ]
+    },
+    "The Pawn's Count": {
+        "Info": {
+            "Author": "E. Phillips Oppenheim",
+            "Year": "1918",
+            "Genre": "Mistery",
+            "Cover": "images/The Pawn's Count.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Zeppelin's Passenger",
+                "Info": {
+                    "Author": "E. Pillips Oppenheim",
+                    "Year": "1918",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Zeppelin's Passenger.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.73,
+                    "lists_result": 0.74,
+                    "bert_result": 0.75,
+                    "fn_result": 0.64
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.55,
+                    "bert_result": 0.74,
+                    "fn_result": 0.69
+                }
+            },
+            {
+                "Title": "The Pickwick Papers",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1836",
+                    "Genre": "Novel",
+                    "Cover": "images/The Pickwick Papers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.61,
+                    "lists_result": 0.55,
+                    "bert_result": 0.73,
+                    "fn_result": 0.65
+                }
+            }
+        ]
+    },
+    "The Personal History of David Copperfield": {
+        "Info": {
+            "Author": "C. Dickens",
+            "Year": "1849",
+            "Genre": "Novel",
+            "Cover": "images/The Personal History of David Copperfield.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.83,
+                    "lists_result": 0.87,
+                    "bert_result": 0.83,
+                    "fn_result": 0.58
+                }
+            },
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.75,
+                    "lists_result": 0.76,
+                    "bert_result": 0.79,
+                    "fn_result": 0.62
+                }
+            },
+            {
+                "Title": "The Mistery of Edwin Drood and Other Stories",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1870",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Mistery of Edwin Drood and Other Stories.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.74,
+                    "lists_result": 0.79,
+                    "bert_result": 0.73,
+                    "fn_result": 0.47
+                }
+            }
+        ]
+    },
+    "The Pickwick Papers": {
+        "Info": {
+            "Author": "C. Dickens",
+            "Year": "1836",
+            "Genre": "Novel",
+            "Cover": "images/The Pickwick Papers.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.74,
+                    "bert_result": 0.9,
+                    "fn_result": 0.59
+                }
+            },
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.63,
+                    "bert_result": 0.78,
+                    "fn_result": 0.63
+                }
+            },
+            {
+                "Title": "The Zeppelin's Passenger",
+                "Info": {
+                    "Author": "E. Pillips Oppenheim",
+                    "Year": "1918",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Zeppelin's Passenger.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.6,
+                    "bert_result": 0.86,
+                    "fn_result": 0.41
+                }
+            }
+        ]
+    },
+    "The Regent's Daughter": {
+        "Info": {
+            "Author": "A. Dumas",
+            "Year": "1845",
+            "Genre": "Historical",
+            "Cover": "images/The Regent's Daughter.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Three Musketeers",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1844",
+                    "Genre": "Adventure",
+                    "Cover": "images/The Three Musketeers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.79,
+                    "bert_result": 0.79,
+                    "fn_result": 0.57
+                }
+            },
+            {
+                "Title": "The Vicomte of Bragelonne: Ten Years Later",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1850",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte of Bragelonne Ten Years Later.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.64,
+                    "lists_result": 0.6,
+                    "bert_result": 0.78,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "The Lady of the Camellias",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1852",
+                    "Genre": "Tragedy",
+                    "Cover": "images/The Lady of the Camellias.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.63,
+                    "bert_result": 0.69,
+                    "fn_result": 0.42
+                }
+            }
+        ]
+    },
+    "The Republic": {
+        "Info": {
+            "Author": "Plato",
+            "Year": "IV sec. a.C.",
+            "Genre": "Philosophy",
+            "Cover": "images/The Republic.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Phaedo or the Immortality of the Soul",
+                "Info": {
+                    "Author": "Plato",
+                    "Year": "IV sec. a.C.",
+                    "Genre": "Philosophy",
+                    "Cover": "images/Phaedo or the Immortality of the Soul.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.53,
+                    "lists_result": 0.49,
+                    "bert_result": 0.62,
+                    "fn_result": 0.45
+                }
+            },
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.41,
+                    "lists_result": 0.19,
+                    "bert_result": 0.7,
+                    "fn_result": 0.84
+                }
+            },
+            {
+                "Title": "Fables",
+                "Info": {
+                    "Author": "J. de La Fontaine",
+                    "Year": "1668",
+                    "Genre": "Fantasy",
+                    "Cover": "images/Fables,J. de La Fontaine.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.39,
+                    "lists_result": 0.25,
+                    "bert_result": 0.58,
+                    "fn_result": 0.68
+                }
+            }
+        ]
+    },
+    "The Three Musketeers": {
+        "Info": {
+            "Author": "A. Dumas",
+            "Year": "1844",
+            "Genre": "Adventure",
+            "Cover": "images/The Three Musketeers.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Regent's Daughter",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1845",
+                    "Genre": "Historical",
+                    "Cover": "images/The Regent's Daughter.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.79,
+                    "bert_result": 0.79,
+                    "fn_result": 0.57
+                }
+            },
+            {
+                "Title": "The Vicomte de Bragelonne",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1847",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte de Bragelonne.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.82,
+                    "bert_result": 0.76,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "The Vicomte of Bragelonne: Ten Years Later",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1850",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte of Bragelonne Ten Years Later.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.71,
+                    "lists_result": 0.71,
+                    "bert_result": 0.78,
+                    "fn_result": 0.54
+                }
+            }
+        ]
+    },
+    "The Vicomte de Bragelonne": {
+        "Info": {
+            "Author": "A. Dumas",
+            "Year": "1847",
+            "Genre": "Historical",
+            "Cover": "images/The Vicomte de Bragelonne.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Three Musketeers",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1844",
+                    "Genre": "Adventure",
+                    "Cover": "images/The Three Musketeers.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.82,
+                    "bert_result": 0.76,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "The Vicomte of Bragelonne: Ten Years Later",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1850",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte of Bragelonne Ten Years Later.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.72,
+                    "lists_result": 0.76,
+                    "bert_result": 0.76,
+                    "fn_result": 0.36
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.65,
+                    "lists_result": 0.6,
+                    "bert_result": 0.77,
+                    "fn_result": 0.54
+                }
+            }
+        ]
+    },
+    "The Zeppelin's Passenger": {
+        "Info": {
+            "Author": "E. Pillips Oppenheim",
+            "Year": "1918",
+            "Genre": "Mistery",
+            "Cover": "images/The Zeppelin's Passenger.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Pawn's Count",
+                "Info": {
+                    "Author": "E. Phillips Oppenheim",
+                    "Year": "1918",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Pawn's Count.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.73,
+                    "lists_result": 0.74,
+                    "bert_result": 0.75,
+                    "fn_result": 0.64
+                }
+            },
+            {
+                "Title": "The Mistery of Edwin Drood and Other Stories",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1870",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Mistery of Edwin Drood and Other Stories.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.71,
+                    "lists_result": 0.68,
+                    "bert_result": 0.72,
+                    "fn_result": 0.83
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.7,
+                    "lists_result": 0.65,
+                    "bert_result": 0.89,
+                    "fn_result": 0.41
+                }
+            }
+        ]
+    },
+    "Thelma": {
+        "Info": {
+            "Author": "M Corelli",
+            "Year": "1887",
+            "Genre": "Drama",
+            "Cover": "images/Thelma.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "God's Good Man. A Simple Love Story",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1904",
+                    "Genre": "Gothic",
+                    "Cover": "images/God's Good Man. A Simple Love Story.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.76,
+                    "lists_result": 0.85,
+                    "bert_result": 0.67,
+                    "fn_result": 0.5
+                }
+            },
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.73,
+                    "lists_result": 0.71,
+                    "bert_result": 0.85,
+                    "fn_result": 0.47
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.69,
+                    "lists_result": 0.71,
+                    "bert_result": 0.68,
+                    "fn_result": 0.56
+                }
+            }
+        ]
+    },
+    "Trilby": {
+        "Info": {
+            "Author": "G. du Maurier",
+            "Year": "1894",
+            "Genre": "Victorian",
+            "Cover": "images/Trilby.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.71,
+                    "bert_result": 0.62,
+                    "fn_result": 0.5
+                }
+            },
+            {
+                "Title": "A Tale of Two Cities",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1859",
+                    "Genre": "Historical",
+                    "Cover": "images/a tale of two cities.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.64,
+                    "lists_result": 0.65,
+                    "bert_result": 0.58,
+                    "fn_result": 0.72
+                }
+            },
+            {
+                "Title": "God's Good Man. A Simple Love Story",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1904",
+                    "Genre": "Gothic",
+                    "Cover": "images/God's Good Man. A Simple Love Story.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.71,
+                    "bert_result": 0.53,
+                    "fn_result": 0.44
+                }
+            }
+        ]
+    },
+    "WormWood a Drama of Paris": {
+        "Info": {
+            "Author": "M. Corelli",
+            "Year": "1890",
+            "Genre": "Victorian",
+            "Cover": "images/WormWood a Drama of Paris.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.76,
+                    "bert_result": 0.65,
+                    "fn_result": 0.3
+                }
+            },
+            {
+                "Title": "God's Good Man. A Simple Love Story",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1904",
+                    "Genre": "Gothic",
+                    "Cover": "images/God's Good Man. A Simple Love Story.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.67,
+                    "lists_result": 0.74,
+                    "bert_result": 0.57,
+                    "fn_result": 0.59
+                }
+            },
+            {
+                "Title": "The Monk and the Hangman's Daughter",
+                "Info": {
+                    "Author": "A. Bierce",
+                    "Year": "1891",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Monk and the Hangman's Daughter.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.6,
+                    "bert_result": 0.64,
+                    "fn_result": 0.77
+                }
+            }
+        ]
+    },
+    "Emma": {
+        "Info": {
+            "Author": "J. Austen",
+            "Year": "1816",
+            "Genre": "Romance",
+            "Cover": "images/Emma.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Persuasion",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1818",
+                    "Genre": "Historical",
+                    "Cover": "images/Persuasion.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.8,
+                    "lists_result": 0.82,
+                    "bert_result": 0.87,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "Sense and Sensibility",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1811",
+                    "Genre": "Romance",
+                    "Cover": "images/Sense and Sensibility.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.85,
+                    "bert_result": 0.76,
+                    "fn_result": 0.34
+                }
+            },
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.66,
+                    "lists_result": 0.65,
+                    "bert_result": 0.76,
+                    "fn_result": 0.38
+                }
+            }
+        ]
+    },
+    "Persuasion": {
+        "Info": {
+            "Author": "J. Austen",
+            "Year": "1818",
+            "Genre": "Historical",
+            "Cover": "images/Persuasion.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Sense and Sensibility",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1811",
+                    "Genre": "Romance",
+                    "Cover": "images/Sense and Sensibility.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.82,
+                    "lists_result": 0.9,
+                    "bert_result": 0.77,
+                    "fn_result": 0.47
+                }
+            },
+            {
+                "Title": "Emma",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1816",
+                    "Genre": "Romance",
+                    "Cover": "images/Emma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.8,
+                    "lists_result": 0.82,
+                    "bert_result": 0.87,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.71,
+                    "lists_result": 0.71,
+                    "bert_result": 0.79,
+                    "fn_result": 0.49
+                }
+            }
+        ]
+    },
+    "Sense and Sensibility": {
+        "Info": {
+            "Author": "J. Austen",
+            "Year": "1811",
+            "Genre": "Romance",
+            "Cover": "images/Sense and Sensibility.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Persuasion",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1818",
+                    "Genre": "Historical",
+                    "Cover": "images/Persuasion.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.85,
+                    "lists_result": 0.9,
+                    "bert_result": 0.77,
+                    "fn_result": 0.8
+                }
+            },
+            {
+                "Title": "Emma",
+                "Info": {
+                    "Author": "J. Austen",
+                    "Year": "1816",
+                    "Genre": "Romance",
+                    "Cover": "images/Emma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.85,
+                    "bert_result": 0.76,
+                    "fn_result": 0.34
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.69,
+                    "lists_result": 0.71,
+                    "bert_result": 0.69,
+                    "fn_result": 0.56
+                }
+            }
+        ]
+    },
+    "King James Version of the Bible": {
+        "Info": {
+            "Author": "Unknown",
+            "Year": "1611",
+            "Genre": "Religion",
+            "Cover": "images/King James Version of the Bible.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.58,
+                    "lists_result": 0.38,
+                    "bert_result": 0.88,
+                    "fn_result": 0.84
+                }
+            },
+            {
+                "Title": "Tennyson's Idylls of the King",
+                "Info": {
+                    "Author": "A. Tennyson",
+                    "Year": "1859",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Tennyson's Idylls of the King.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.55,
+                    "lists_result": 0.41,
+                    "bert_result": 0.77,
+                    "fn_result": 0.71
+                }
+            },
+            {
+                "Title": "The Vicomte de Bragelonne",
+                "Info": {
+                    "Author": "A. Dumas",
+                    "Year": "1847",
+                    "Genre": "Historical",
+                    "Cover": "images/The Vicomte de Bragelonne.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.54,
+                    "lists_result": 0.49,
+                    "bert_result": 0.6,
+                    "fn_result": 0.62
+                }
+            }
+        ]
+    },
+    "Stories to Tell to Children": {
+        "Info": {
+            "Author": "S.C. Bryant",
+            "Year": "1918",
+            "Genre": "for Kids",
+            "Cover": "images/Stories to Tel to Children.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.6,
+                    "bert_result": 0.73,
+                    "fn_result": 0.51
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.58,
+                    "lists_result": 0.57,
+                    "bert_result": 0.59,
+                    "fn_result": 0.63
+                }
+            },
+            {
+                "Title": "The Jungle",
+                "Info": {
+                    "Author": "U. Sinclair",
+                    "Year": "1906",
+                    "Genre": "Political Fiction",
+                    "Cover": "images/The Jungle.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.49,
+                    "bert_result": 0.7,
+                    "fn_result": 0.65
+                }
+            }
+        ]
+    },
+    "The Adventures of Buster Bear": {
+        "Info": {
+            "Author": "T.W. Burgess",
+            "Year": "1920",
+            "Genre": "for Kids",
+            "Cover": "images/The Adventures of Buster Bear.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Stories to Tell to Children",
+                "Info": {
+                    "Author": "S.C. Bryant",
+                    "Year": "1918",
+                    "Genre": "for Kids",
+                    "Cover": "images/Stories to Tel to Children.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.48,
+                    "lists_result": 0.41,
+                    "bert_result": 0.67,
+                    "fn_result": 0.32
+                }
+            },
+            {
+                "Title": "Captains Courageous: A Story of the Grand Banks",
+                "Info": {
+                    "Author": "R. Kipling",
+                    "Year": "1897",
+                    "Genre": "Adventure",
+                    "Cover": "images/Captains Courageous A Story of the Grand Banks.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.45,
+                    "lists_result": 0.33,
+                    "bert_result": 0.66,
+                    "fn_result": 0.51
+                }
+            },
+            {
+                "Title": "The Jungle",
+                "Info": {
+                    "Author": "U. Sinclair",
+                    "Year": "1906",
+                    "Genre": "Political Fiction",
+                    "Cover": "images/The Jungle.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.45,
+                    "lists_result": 0.35,
+                    "bert_result": 0.62,
+                    "fn_result": 0.49
+                }
+            }
+        ]
+    },
+    "Alice's Adventures in Wonderland": {
+        "Info": {
+            "Author": "L. Carroll",
+            "Year": "1865",
+            "Genre": "Fantasy",
+            "Cover": "images/Alice's Adventures in Wonderland.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Parent's Assistant",
+                "Info": {
+                    "Author": "M. Edgeworth",
+                    "Year": "1796",
+                    "Genre": "for Kids",
+                    "Cover": "images/The Parent's Assistant.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.52,
+                    "bert_result": 0.69,
+                    "fn_result": 0.46
+                }
+            },
+            {
+                "Title": "The Zeppelin's Passenger",
+                "Info": {
+                    "Author": "E. Pillips Oppenheim",
+                    "Year": "1918",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Zeppelin's Passenger.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.54,
+                    "lists_result": 0.44,
+                    "bert_result": 0.73,
+                    "fn_result": 0.53
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.52,
+                    "lists_result": 0.46,
+                    "bert_result": 0.62,
+                    "fn_result": 0.54
+                }
+            }
+        ]
+    },
+    "The Ball and The Cross": {
+        "Info": {
+            "Author": "G.K. Chesterton",
+            "Year": "1909",
+            "Genre": "Thriller",
+            "Cover": "images/The Ball and The Cross.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Wisdom of Father Brown",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1914",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Wisdom of Father Brown.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.72,
+                    "lists_result": 0.82,
+                    "bert_result": 0.65,
+                    "fn_result": 0.32
+                }
+            },
+            {
+                "Title": "The Man Who Was Thursday",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1908",
+                    "Genre": "Thriller",
+                    "Cover": "images/The Man Who Was Thursday.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.69,
+                    "lists_result": 0.74,
+                    "bert_result": 0.69,
+                    "fn_result": 0.34
+                }
+            },
+            {
+                "Title": "The Zeppelin's Passenger",
+                "Info": {
+                    "Author": "E. Pillips Oppenheim",
+                    "Year": "1918",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Zeppelin's Passenger.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.59,
+                    "lists_result": 0.57,
+                    "bert_result": 0.67,
+                    "fn_result": 0.44
+                }
+            }
+        ]
+    },
+    "The Wisdom of Father Brown": {
+        "Info": {
+            "Author": "G.K. Chesterton",
+            "Year": "1914",
+            "Genre": "Mistery",
+            "Cover": "images/The Wisdom of Father Brown.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Ball and The Cross",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1909",
+                    "Genre": "Thriller",
+                    "Cover": "images/The Ball and The Cross.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.72,
+                    "lists_result": 0.82,
+                    "bert_result": 0.65,
+                    "fn_result": 0.34
+                }
+            },
+            {
+                "Title": "The Man Who Was Thursday",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1908",
+                    "Genre": "Thriller",
+                    "Cover": "images/The Man Who Was Thursday.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.74,
+                    "bert_result": 0.67,
+                    "fn_result": 0.32
+                }
+            },
+            {
+                "Title": "A Tale of Two Cities",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1859",
+                    "Genre": "Historical",
+                    "Cover": "images/a tale of two cities.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.63,
+                    "lists_result": 0.65,
+                    "bert_result": 0.63,
+                    "fn_result": 0.49
+                }
+            }
+        ]
+    },
+    "The Man Who Was Thursday": {
+        "Info": {
+            "Author": "G.K. Chesterton",
+            "Year": "1908",
+            "Genre": "Thriller",
+            "Cover": "images/The Man Who Was Thursday.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "The Ball and The Cross",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1909",
+                    "Genre": "Thriller",
+                    "Cover": "images/The Ball and The Cross.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.69,
+                    "lists_result": 0.74,
+                    "bert_result": 0.69,
+                    "fn_result": 0.34
+                }
+            },
+            {
+                "Title": "The Wisdom of Father Brown",
+                "Info": {
+                    "Author": "G.K. Chesterton",
+                    "Year": "1914",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Wisdom of Father Brown.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.68,
+                    "lists_result": 0.74,
+                    "bert_result": 0.67,
+                    "fn_result": 0.32
+                }
+            },
+            {
+                "Title": "Thelma",
+                "Info": {
+                    "Author": "M Corelli",
+                    "Year": "1887",
+                    "Genre": "Drama",
+                    "Cover": "images/Thelma.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.55,
+                    "bert_result": 0.57,
+                    "fn_result": 0.65
+                }
+            }
+        ]
+    },
+    "The Parent's Assistant": {
+        "Info": {
+            "Author": "M. Edgeworth",
+            "Year": "1796",
+            "Genre": "for Kids",
+            "Cover": "images/The Parent's Assistant.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Our Mutual Friend",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1864",
+                    "Genre": "Novel",
+                    "Cover": "images/Our Mutual Friend.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.83,
+                    "lists_result": 0.9,
+                    "bert_result": 0.82,
+                    "fn_result": 0.45
+                }
+            },
+            {
+                "Title": "Little Women",
+                "Info": {
+                    "Author": "L.M. Alcott",
+                    "Year": "1868",
+                    "Genre": "Coming-of-Age",
+                    "Cover": "images/Little Women,L.M. Alcott.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.75,
+                    "lists_result": 0.79,
+                    "bert_result": 0.69,
+                    "fn_result": 0.65
+                }
+            },
+            {
+                "Title": "The Personal History of David Copperfield",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1849",
+                    "Genre": "Novel",
+                    "Cover": "images/The Personal History of David Copperfield.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.75,
+                    "lists_result": 0.76,
+                    "bert_result": 0.79,
+                    "fn_result": 0.62
+                }
+            }
+        ]
+    },
+    "Moby Dick": {
+        "Info": {
+            "Author": "H. Melville",
+            "Year": "1851",
+            "Genre": "Adventure",
+            "Cover": "images/Moby Dick.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Captains Courageous: A Story of the Grand Banks",
+                "Info": {
+                    "Author": "R. Kipling",
+                    "Year": "1897",
+                    "Genre": "Adventure",
+                    "Cover": "images/Captains Courageous A Story of the Grand Banks.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.55,
+                    "bert_result": 0.71,
+                    "fn_result": 0.73
+                }
+            },
+            {
+                "Title": "The Mistery of Edwin Drood and Other Stories",
+                "Info": {
+                    "Author": "C. Dickens",
+                    "Year": "1870",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Mistery of Edwin Drood and Other Stories.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.59,
+                    "lists_result": 0.6,
+                    "bert_result": 0.6,
+                    "fn_result": 0.54
+                }
+            },
+            {
+                "Title": "The Zeppelin's Passenger",
+                "Info": {
+                    "Author": "E. Pillips Oppenheim",
+                    "Year": "1918",
+                    "Genre": "Mistery",
+                    "Cover": "images/The Zeppelin's Passenger.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.55,
+                    "bert_result": 0.61,
+                    "fn_result": 0.56
+                }
+            }
+        ]
+    },
+    "Paradise Lost": {
+        "Info": {
+            "Author": "J. Milton",
+            "Year": "1667",
+            "Genre": "Epic Poem",
+            "Cover": "images/Paradise Lost.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Leaves of Grass",
+                "Info": {
+                    "Author": "W. Whitman",
+                    "Year": "1855",
+                    "Genre": "Poetry",
+                    "Cover": "images/Leaves of Grass.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.64,
+                    "lists_result": 0.6,
+                    "bert_result": 0.76,
+                    "fn_result": 0.55
+                }
+            },
+            {
+                "Title": "Selected Poems",
+                "Info": {
+                    "Author": "W. Whitman",
+                    "Year": "1892",
+                    "Genre": "Poetry",
+                    "Cover": "images/Selected Poems.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.6,
+                    "bert_result": 0.59,
+                    "fn_result": 0.8
+                }
+            },
+            {
+                "Title": "Tennyson's Idylls of the King",
+                "Info": {
+                    "Author": "A. Tennyson",
+                    "Year": "1859",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Tennyson's Idylls of the King.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.52,
+                    "bert_result": 0.77,
+                    "fn_result": 0.74
+                }
+            }
+        ]
+    },
+    "Leaves of Grass": {
+        "Info": {
+            "Author": "W. Whitman",
+            "Year": "1855",
+            "Genre": "Poetry",
+            "Cover": "images/Leaves of Grass.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Selected Poems",
+                "Info": {
+                    "Author": "W. Whitman",
+                    "Year": "1892",
+                    "Genre": "Poetry",
+                    "Cover": "images/Selected Poems.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.9,
+                    "bert_result": 0.61,
+                    "fn_result": 0.47
+                }
+            },
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.64,
+                    "lists_result": 0.6,
+                    "bert_result": 0.76,
+                    "fn_result": 0.55
+                }
+            },
+            {
+                "Title": "WormWood a Drama of Paris",
+                "Info": {
+                    "Author": "M. Corelli",
+                    "Year": "1890",
+                    "Genre": "Victorian",
+                    "Cover": "images/WormWood a Drama of Paris.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.57,
+                    "lists_result": 0.63,
+                    "bert_result": 0.49,
+                    "fn_result": 0.49
+                }
+            }
+        ]
+    },
+    "Selected Poems": {
+        "Info": {
+            "Author": "W. Whitman",
+            "Year": "1892",
+            "Genre": "Poetry",
+            "Cover": "images/Selected Poems.jpg"
+        },
+        "Top Affinities": [
+            {
+                "Title": "Leaves of Grass",
+                "Info": {
+                    "Author": "W. Whitman",
+                    "Year": "1855",
+                    "Genre": "Poetry",
+                    "Cover": "images/Leaves of Grass.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.77,
+                    "lists_result": 0.9,
+                    "bert_result": 0.61,
+                    "fn_result": 0.47
+                }
+            },
+            {
+                "Title": "Paradise Lost",
+                "Info": {
+                    "Author": "J. Milton",
+                    "Year": "1667",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Paradise Lost.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.62,
+                    "lists_result": 0.6,
+                    "bert_result": 0.59,
+                    "fn_result": 0.8
+                }
+            },
+            {
+                "Title": "Tennyson's Idylls of the King",
+                "Info": {
+                    "Author": "A. Tennyson",
+                    "Year": "1859",
+                    "Genre": "Epic Poem",
+                    "Cover": "images/Tennyson's Idylls of the King.jpg"
+                },
+                "Affinity": {
+                    "av_result": 0.56,
+                    "lists_result": 0.57,
+                    "bert_result": 0.5,
+                    "fn_result": 0.65
+                }
+            }
+        ]
+    }
+}

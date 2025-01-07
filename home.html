@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home - Progetto Libri</title>
+    <link rel="stylesheet" href="home.css">
+    <script src="home.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#info-progetto">Informazioni sul Progetto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <h1>Scrivi il titolo qui...</h1>
+            <input type="text" id="search-bar" placeholder="Cerca un libro o un autore...">
+            <ul id="suggestions" class="suggestions-list"></ul>
+            <p>Oppure seleziona un libro dal <a href="dataset.html">nostro dataset</a>:</p>
+            <div class="featured-books">
+                <!-- I libri verranno aggiunti dinamicamente tramite JavaScript -->
+            </div>
+            <button onclick="location.href='dataset.html'">Visualizza il dataset completo...</button>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Progetto Similarità Semantica</p>
+    </footer>
+</body>
+</html>

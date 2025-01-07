@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Results</title>
+    <link rel="stylesheet" href="results.css">
+</head>
+<body>
+    <!-- Header -->
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="#" onclick="showProjectInfo()">Informazioni sul Progetto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main Content -->
+    <main class="results-container">
+        <!-- Titolo del libro selezionato -->
+        <h1 id="book-title">Titolo del Libro</h1>
+        
+        <!-- Dettagli del libro -->
+        <div class="book-details">
+            <img id="book-cover" src="" alt="Copertina del libro">
+            <div class="book-info">
+                <p><strong>Autore:</strong> <span id="book-author"></span></p>
+                <p><strong>Anno:</strong> <span id="book-year"></span></p>
+                <p><strong>Genere:</strong> <span id="book-genre"></span></p>
+            </div>
+        </div>
+
+        <!-- Libri correlati -->
+        <h2 id="related-books-title">Libri Correlati</h2>
+        <div class="related-books">
+            <!-- Sezione per i libri correlati -->
+            <div class="related-book" id="related-book-1">
+                <img src="" alt="Copertina libro correlato" class="related-cover">
+                <div class="related-info">
+                    <p><strong>Titolo:</strong> <span class="related-title"></span></p>
+                    <p><strong>Autore:</strong> <span class="related-author"></span></p>
+                    <p><strong>Affinità:</strong> <span class="related-affinity"></span>%</p>
+                    <button class="details-button" onclick="showDetails(1)">Ulteriori dettagli</button>
+                    <div class="extra-info" id="details-1" style="display: none;">
+                        <p>Affinità basata sulle parole più frequenti: <span class="affinity-lists"></span>%</p>
+                        <p>Affinità basata su BERT: <span class="affinity-bert"></span>%</p>
+                        <p>Affinità basata su FrameNet: <span class="affinity-fn"></span>%</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Progetto Similarità Semantica</p>
+    </footer>
+
+    <script src="results.js"></script>
+</body>
+</html>
