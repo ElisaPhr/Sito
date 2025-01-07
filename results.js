@@ -1,5 +1,3 @@
-// results.js
-
 // URL del file JSON
 const jsonURL = 'Processed_Books.json';
 let bookData = {};
@@ -35,6 +33,12 @@ function loadBookDetails(bookTitle) {
     relatedBooksContainer.innerHTML = '';
 
     relatedBooks.forEach((related, index) => {
+        // Converte le affinità in percentuali
+        const avResult = Math.round(related.Affinity.av_result * 100);
+        const listsResult = Math.round(related.Affinity.lists_result * 100);
+        const bertResult = Math.round(related.Affinity.bert_result * 100);
+        const fnResult = Math.round(related.Affinity.fn_result * 100);
+
         // Crea un elemento per ogni libro correlato
         const relatedDiv = document.createElement("div");
         relatedDiv.className = "related-book";
@@ -44,12 +48,12 @@ function loadBookDetails(bookTitle) {
             <div class="related-info">
                 <p><strong>Titolo:</strong> ${related.Title}</p>
                 <p><strong>Autore:</strong> ${related.Info.Author}</p>
-                <p><strong>Affinità:</strong> ${related.Affinity.av_result}%</p>
+                <p><strong>Affinità:</strong> ${avResult}%</p>
                 <button class="details-button" onclick="showDetails(${index})">Ulteriori dettagli</button>
                 <div class="extra-info" id="details-${index}" style="display: none;">
-                    <p>Affinità basata sulle parole più frequenti: ${related.Affinity.lists_result}%</p>
-                    <p>Affinità basata su BERT: ${related.Affinity.bert_result}%</p>
-                    <p>Affinità basata su FrameNet: ${related.Affinity.fn_result}%</p>
+                    <p>Affinità basata sulle parole più frequenti: ${listsResult}%</p>
+                    <p>Affinità basata su BERT: ${bertResult}%</p>
+                    <p>Affinità basata su FrameNet: ${fnResult}%</p>
                 </div>
             </div>
         `;
@@ -68,13 +72,13 @@ function showDetails(index) {
     }
 }
 
-// Simulazione del caricamento della pagina con un libro specifico
-// Questo dovrebbe essere dinamico basato sull'input dell'utente
+// Funzione per ottenere il titolo del libro dall'URL
 function getBookTitleFromURL() {
     const params = new URLSearchParams(window.location.search);
     return params.get('book'); // Ottieni il titolo dal parametro 'book'
 }
 
+// Funzione per caricare i dettagli del libro in base all'URL
 function loadBookDetailsFromURL() {
     const bookTitle = getBookTitleFromURL();
     if (!bookTitle) {
@@ -85,5 +89,5 @@ function loadBookDetailsFromURL() {
     loadBookDetails(bookTitle); // Usa la funzione esistente per caricare i dettagli
 }
 
-// Chiama la funzione per caricare i dettagli in base all'URL
-loadJSON(); // Inizia caricando il file JSON
+// Avvia il caricamento del file JSON all'avvio della pagina
+loadJSON();
