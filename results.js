@@ -13,6 +13,9 @@ async function loadJSON() {
     }
 }
 
+// Funzione per formattare le percentuali rimuovendo "0."
+const formatPercentage = (value) => value.toString().replace("0.", "");
+
 // Funzione per mostrare i dettagli del libro principale
 function loadBookDetails(bookTitle) {
     const book = bookData[bookTitle];
@@ -33,11 +36,11 @@ function loadBookDetails(bookTitle) {
     relatedBooksContainer.innerHTML = '';
 
     relatedBooks.forEach((related, index) => {
-        // Converte le affinità in percentuali
-        const avResult = Math.round(related.Affinity.av_result * 100);
-        const listsResult = Math.round(related.Affinity.lists_result * 100);
-        const bertResult = Math.round(related.Affinity.bert_result * 100);
-        const fnResult = Math.round(related.Affinity.fn_result * 100);
+        // Converte le affinità in stringhe senza lo "0."
+        const avResult = formatPercentage(related.Affinity.av_result);
+        const listsResult = formatPercentage(related.Affinity.lists_result);
+        const bertResult = formatPercentage(related.Affinity.bert_result);
+        const fnResult = formatPercentage(related.Affinity.fn_result);
 
         // Crea un elemento per ogni libro correlato
         const relatedDiv = document.createElement("div");
@@ -72,13 +75,13 @@ function showDetails(index) {
     }
 }
 
-// Funzione per ottenere il titolo del libro dall'URL
+// Simulazione del caricamento della pagina con un libro specifico
+// Questo dovrebbe essere dinamico basato sull'input dell'utente
 function getBookTitleFromURL() {
     const params = new URLSearchParams(window.location.search);
     return params.get('book'); // Ottieni il titolo dal parametro 'book'
 }
 
-// Funzione per caricare i dettagli del libro in base all'URL
 function loadBookDetailsFromURL() {
     const bookTitle = getBookTitleFromURL();
     if (!bookTitle) {
@@ -89,5 +92,5 @@ function loadBookDetailsFromURL() {
     loadBookDetails(bookTitle); // Usa la funzione esistente per caricare i dettagli
 }
 
-// Avvia il caricamento del file JSON all'avvio della pagina
-loadJSON();
+// Chiama la funzione per caricare i dettagli in base all'URL
+loadJSON(); // Inizia caricando il file JSON
