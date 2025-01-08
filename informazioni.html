@@ -301,9 +301,9 @@
                 modello, confronta direttamente le liste di parole
                 frequenti di due libri, fornendo un unico punteggio
                 finale, rappresentativo della similarità complessiva 
-                tra i due. Il modello BERT per il confronto tra frasi
-                ha richiesto un approccio piu complesso poiché
-                fornisce un punteggio di similarità per ogni coppia di frasi e ogni libro presenta 30 frasi. Questo
+                tra i due. I modelli basati su BERT e Framenet per il confronto tra frasi
+                hanno richiesto un approccio piu complesso poiché
+                forniscono un punteggio di similarità per ogni coppia di frasi e ogni libro presenta 30 frasi. Questo
                 significa che il risultato del confronto tra due libri
                 non viene rappresentato da un singolo valore, ma
                 da 900 (30 x 30 frasi = 900 risultati). Inoltre,
@@ -316,7 +316,7 @@
                 tra i due libri. Per migliorare la validità dei risultati finali, è stata applicata una strategia di calcolo 
                 della media ponderata. Questa media tiene conto
                 del numero di risultati sopra una certa soglia (nel
-                nostro caso, una soglia di similarità pari a 0.15), 
+                nostro caso, una soglia di similarità pari a 0.15 per BERT e 0.48 per FrameNet), 
                 in modo che la presenza di un numero maggiore
                 di frasi simili valga più dei punteggi individuali di 
                 singole coppie di frasi. In altre parole, i punteggi
