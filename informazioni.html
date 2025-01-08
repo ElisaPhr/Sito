@@ -145,23 +145,29 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
             <section id="estrazione-frasi">
                 <h3>Estrazione Frasi Casuali</h3>
                 <p>Una volta ottenuti i file in formato txt corretti
-                    e completi, è seguita l’estrazione di frasi casuali dai libri. Poiché i metodi di analisi semantica non funzionano su segmenti di testo piu lunghi, 
-                    si è scelto di selezionare 30 frasi per ciascun libro. Questa fase ha comportato la creazione di
+                    e completi, è seguita l’estrazione di frasi casuali dai libri. Poiché i metodi di analisi 
+                    semantica non funzionano su segmenti di testo piu lunghi, 
+                    si è scelto di selezionare 30 frasi per ciascun libro. 
+                    Questa fase ha comportato la creazione di
                     un algoritmo in grado di individuare frasi complete, evitando sequenze di testo troppo brevi o
                     che potessero risultare non pertinenti. Il testo è stato ripulito da caratteri speciali come i simboli
                     di backslash, barra, asterisco e accento circostante;
                     trattando anche i casi delle abbreviazioni per evitare che il programma trattasse erroneamente questi casi come
                     conclusioni di frasi. Per isolare correttamente le
                     frasi, è stato utilizzato un pattern di espressioni regolari che prendeva in considerazione i segni di
-                    punteggiatura, implementando poi un filtro che escludeva le frasi troppo brevi, quelle scritte interamente in maiuscolo o quelle che contenevano più 
+                    punteggiatura, implementando poi un filtro che escludeva le frasi troppo brevi, quelle scritte 
+                    interamente in maiuscolo o quelle che contenevano più 
                     di una sequenza consecutiva di lettere maiuscole,
                     in quanto ritenute non idonee per il campione.
-                    Una volta ottenute le frasi, il programma selezionava casualmente 30 frasi, assicurandosi che queste
+                    Una volta ottenute le frasi, il programma selezionava casualmente 30 frasi, 
+                    assicurandosi che queste
                     rispettassero i criteri di lunghezza e formato. Ogni
-                    frase è stata controllata manualmente per correggere eventuali errori e garantire che fosse completamente leggibile e corretta dal punto di vista
+                    frase è stata controllata manualmente per correggere eventuali errori e garantire che fosse completamente 
+                    leggibile e corretta dal punto di vista
                     sintattico. Il numero di frasi che abbiamo scelto
                     di estrarre rappresenta un compromesso tra la capacità di calcolo dei nostri software e la necessità
-                    di garantire la massima affidabilità possibile nei risultati. Tuttavia, suggeriamo di aumentare il numero di frasi estratte se possibile, poiché un corpus più ampio migliorà la probabilità che il campione 
+                    di garantire la massima affidabilità possibile nei risultati. Tuttavia, suggeriamo di aumentare il 
+                    numero di frasi estratte se possibile, poiché un corpus più ampio migliora la probabilità che il campione 
                     sia più rappresentativo. </p>
             </section>
 
