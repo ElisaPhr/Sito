@@ -14,7 +14,13 @@ async function loadJSON() {
 }
 
 // Funzione per formattare le percentuali rimuovendo "0."
-const formatPercentage = (value) => value.toString().replace("0.", "");
+const formatPercentage = (value) => {
+    const strValue = value.toString();
+    if (strValue.startsWith("0.") && strValue.length === 3) {
+        return strValue.replace("0.", "") + "0";
+    }
+    return strValue.replace("0.", "");
+};
 
 // Funzione per mostrare i dettagli del libro principale
 function loadBookDetails(bookTitle) {
