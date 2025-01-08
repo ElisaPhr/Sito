@@ -1,0 +1,145 @@
+/* informazioni.css */
+
+/* Generale */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+}
+
+/* Header e Navbar */
+header {
+    background-color: #8b026e;
+    color: white;
+    padding: 10px 20px;
+}
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    margin-left: 20px;
+}
+
+.navbar a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Main Section */
+main {
+    padding: 20px;
+    max-width: 800px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1, h2, h3, h4 {
+    color: #8b026e;
+    margin-top: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 1.8em;
+    margin-top: 30px;
+}
+
+h3 {
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+h4 {
+    font-size: 1.2em;
+    margin-top: 15px;
+}
+
+p {
+    margin: 10px 0;
+    text-align: justify;
+}
+
+/* Indice */
+.indice {
+    background-color: #f0f0f0;
+    padding: 15px;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.indice h2 {
+    margin-bottom: 10px;
+}
+
+.indice ol {
+    list-style: decimal;
+    margin: 0;
+    padding-left: 20px;
+}
+
+.indice a {
+    text-decoration: none;
+    color: #8b026e;
+}
+
+.indice a:hover {
+    text-decoration: underline;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #8b026e;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    main {
+        padding: 15px;
+    }
+
+    .indice {
+        padding: 10px;
+    }
+
+    h1 {
+        font-size: 1.8em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    h3 {
+        font-size: 1.3em;
+    }
+
+    h4 {
+        font-size: 1.1em;
+    }
+}
