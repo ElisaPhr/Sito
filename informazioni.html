@@ -174,7 +174,7 @@
 
             <section id="dataset">
                 <h3>Dataset</h3>
-                <p>Il dataset finale, che verra utilizzato nel calcolo della similarita e nel sito, si compone delle 30 frasi casuali estratte da ogni libro, delle 50 parole piu`
+                <p>Il dataset finale, che verrà utilizzato nel calcolo della similarità e nel sito, si compone delle 30 frasi casuali estratte da ogni libro, delle 50 parole più
                     frequenti e delle informazioni sui libri. Queste informazioni sono state estratte dai metadati di ogni
                     libro e sono state ordinate in un DataFrame creato
                     utilizzando la libreria pandas e in un file JSON,
@@ -187,12 +187,12 @@
 
         <section id="similarita-semantica">
             <h2>Similarità Semantica</h2>
-            <p>La seconda fase e iniziata con una ricerca sulla letteratura relativa alla similarita semantica, la quale puo essere definita come la distanza tra i significati semantici di una coppia di parole, frasi, paragrafi o documenti. Dopo una serie di ricerche si
-                e deciso di concentrarsi sull’analisi di coppie di parole e frasi. Inoltre, per quanto riguarda la similarita tra frasi, bisogna tenere presente che non esiste un quadro teorico a livello frasale che stabilisca come determinare se due frasi sono semanticamente equivalenti, i criteri sono spesso soggettivi.</p>
+            <p>La seconda fase e iniziata con una ricerca sulla letteratura relativa alla similarità semantica, la quale puo essere definita come la distanza tra i significati semantici di una coppia di parole, frasi, paragrafi o documenti. Dopo una serie di ricerche si
+                è deciso di concentrarsi sull’analisi di coppie di parole e frasi. Inoltre, per quanto riguarda la similarità tra frasi, bisogna tenere presente che non esiste un quadro teorico a livello frasale che stabilisca come determinare se due frasi sono semanticamente equivalenti, i criteri sono spesso soggettivi.</p>
 
             <section id="word-net">
                 <h3>Similarità tra Parole con Word Net</h3>
-                <p>Per l’analisi delle coppie di parole si e scelto di 
+                <p>Per l’analisi delle coppie di parole si è scelto di 
                     utilizzare WordNet1
                     , un enorme database che raggruppa nomi, verbi, aggettivi e avverbi in cognitive synonyms, insiemi di sinonimi che per il
                     parlante nativo indicano un concetto specifico. I
@@ -202,24 +202,23 @@
                     maggiore frequenza su WordNet. Inoltre, i synset
                     contengono una breve definizione, gloss, la quale
                     comprende anche una o piu frasi brevi con esempi 
-                    d’uso. Per il calcolo della similarita si è deciso di 
+                    d’uso. Per il calcolo della similarità si è deciso di 
                     basarsi su questi due aspetti, unendo dunque:</p>
                     <ul>
-                        <li>La similarita basata sui percorsi, path-based, 
+                        <li>La similarità basata sui percorsi, path-based, 
                             la quale sfrutta la gerarchia concettuale di
-                            WordNet, dove valori piu alti indicano relazioni semantiche piu strette.</li>
+                            WordNet, dove valori più alti indicano relazioni semantiche più strette.</li>
                         <li> La similarita basata sulle gloss, la quale utilizza le definizioni e gli esempi dei synset, aggregandoli in un gloss esteso, che viene successivamente preprocessato per rimuovere
-                            stopword e punteggiatura, seguito dalla lemmatizzazione.Idea e molto semplice: se due 
+                            stopword e punteggiatura, seguito dalla lemmatizzazione. L'idea e molto semplice: se due 
                             parole sono semanticamente simili, allora le
-                            glosse estese avranno piu parole in comune. 
-                            La similarita tra gloss estesi viene valutata utilizzando il coefficiente di similarita di Jac
-                            card, concentrandosi su contenuti comuni tra
+                            glosse estese avranno più parole in comune. 
+                            La similarità tra gloss estesi viene valutata utilizzando il coefficiente di similarità di Jaccard, concentrandosi su contenuti comuni tra
                             insiemi.</li>
                     </ul>
                 <p>Il punteggio finale le combina, garantendo che
                     vengano sfruttate sia la gerarchia che le glosse presenti in WordNet. Data l’idea di confrontare le
-                    parole piu frequenti, abbiamo adattato il codice 
-                    rendendolo in grado di confrontare liste di parole. Infine, il codice e stato testato con il dataset 
+                    parole più frequenti, abbiamo adattato il codice 
+                    rendendolo in grado di confrontare liste di parole. Infine, il codice è stato testato con il dataset 
                     WordSim353, ottenendo punteggi di correlazione di Pearson (0.5748) e Spearman (0.6389).
                     Questi punteggi indicano che il metodo utilizzato
                     è abbastanza efficiente, ma non è perfetto; a confronto alcuni sistemi allo stato dell’arte raggiungono un coefficiente di Spearman attorno a 0.8.</p>
@@ -228,20 +227,20 @@
 
             <section id="similarita-frasi">
                 <h3>Similarità tra Frasi</h3>
-                <p>Per l’analisi delle frasi intere si e scelto di utilizzare due approcci diversi, uno più tradizionale e il secondo più innovativo.</p>
+                <p>Per l’analisi delle frasi intere si è scelto di utilizzare due approcci diversi, uno più tradizionale e il secondo più innovativo.</p>
 
                 <section id="bert">
                     <h4>BERT</h4>
-                    <p>Il primo sistema di calcolo della similarita semantica tra frasi e stato implementato utilizzando BERT, in particolare il modello bert-base-uncased,
+                    <p>Il primo sistema di calcolo della similarità semantica tra frasi e stato implementato utilizzando BERT, in particolare il modello bert-base-uncased,
                         pre-addestrato su un ampio corpus di testi in
                         inglese, della libreria Hugging Face Transformers. Il tokenizzatore di BERT segmenta le frasi
                         in token e li converte in rappresentazioni numeriche compatibili con il modello. Inoltre, il tokenizzatore gestisce automaticamente la lunghezza
                         delle frasi applicando il padding per uniformarle
                         o la troncatura se superano il limite di 128 token. Dopo la tokenizzazione si attua l’estrazione
-                        di embedding: il modello genera vettori semantici per ogni frase calcolando la media dei vettori degli ultimi strati. Si e scelto di utilizzare
+                        di embedding: il modello genera vettori semantici per ogni frase calcolando la media dei vettori degli ultimi strati. Si è scelto di utilizzare
                         with torch.no_grad(): per ridurre l’uso
                         della memoria e velocizzare il calcolo. Infine, la
-                        similarita tra due frasi è determinata confrontando
+                        similarità tra due frasi è determinata confrontando
                         i loro rispettivi embedding tramite la similarità
                         coseno. Il codice e stato poi testato con il dataset 
                         GLUE di STS-benchmark, ottenendo una correlazione di Pearson: 0.87 e una correlazione di
@@ -253,37 +252,36 @@
                     <h4>FrameNet</h4>
                     <p>L’ultimo approccio che abbiamo sviluppato si
                         basa vagamente sul lavoro di basile-etal-2018-measuring. Il nostro approccio propone un
-                        metodo per calcolare la similarita semantica utilizzando le informazioni combinate di FrameNet e
-                        WordNEt, combinando la struttura semantica dai
+                        metodo per calcolare la similarità semantica utilizzando le informazioni combinate di FrameNet e
+                        WordNet, combinando la struttura semantica dai
                         tipi di frame di FrameNet con la ricchezza del
                         database di WordNet. La semantica dei frame
                         e stata sviluppata di Fillmore, mettendo in relazione significato linguistico e conoscenza enciclopedica del mondo. In particolare, un frame è
                         definitivo come una struttura concettuale simile a
                         una scena che descrive un particolare tipo di situazione, oggetto o evento, insieme ai partecipanti
                         e agli elementi necessari per quel frame. Le parole che evocano un frame sono definite come lexical units (LUs), mentre i frame elements sono le
-                        componenti chiave che definiscono e contestualizzazione il significato di un evento o di un concetto
+                        componenti chiave che definiscono e contestualizzano il significato di un evento o di un concetto
                         descritto dal frame, hanno la funzione di un ruolo
                         semantico. Basandosi su questi aspetti, la nostra
-                        metodologia si basa su tre componenti principali:
+                        metodologia si pone su tre componenti principali:
                     <ul>
                         <li>Relatedness tra Frame Types: i frame semantici di FrameNet sono identificati tramite
                             le Lexical Units (LUs) associate alle parole
-                            di ciascuna frase. La similarita tra i tipi di `
-                            frame e calcolata come la media delle simi- `
-                            larita tra tutte le coppie di frame, utilizzando `
-                            una soglia per filtrare similarita irrilevanti.</li>
-                        <li> Relatedness tra Frame Elements I frame elements di ciascun frame sono analizzati per
-                            valutare la loro affinita tramite WordNet.</li>
+                            di ciascuna frase. La similarità tra i tipi di `
+                            frame è calcolata come la media delle similarità tra tutte le coppie di frame, utilizzando 
+                            una soglia per filtrare similarità irrilevanti.</li>
+                        <li>Relatedness tra Frame Elements: i frame elements di ciascun frame sono analizzati per
+                            valutare la loro affinità tramite WordNet.</li>
                         <li>Relatedness complessiva: la misura complessiva combina i due componenti sopra menzionati utilizzando una pesatura dinamica.
                             Ogni frase viene analizzata tramite un processo di tokenizzazione e POS-tagging, per
                             poi estrarre le Lexical Units, frame types e
                             elementi semantici da ciascun token.
                             </li>
                     </ul>
-                    Per velocizzare il calcolo e stata inclusa una parte `
+                    <p>Per velocizzare il calcolo è stata inclusa una parte `
                     di precaricamento e parallelizzazione, evitando
                     calcoli ripetitivi e migliorando l’efficienza. Il
-                    codice e stato testato con il dataset GLUE di STS- `
+                    codice è stato testato con il dataset GLUE di STS- `
                     benchmark su google colab, ottenendo una correlazione di Pearson pari a 0.41 e una correlazione
                     di Spearman pari a 0.39; sono punteggi moderati,
                     mostrando che si possono ottenere dei miglioramenti, magari considerando anche le relazioni gerarchiche presenti in FrameNet.</p>
@@ -293,69 +291,64 @@
 
         <section id="confronti-risultati">
             <h2>Confronti e Risultati</h2>
-            <p>Nel processo di analisi e confronto tra i libri, abbiamo utilizzato i tre diversi modelli di similarita`
+            <p>Nel processo di analisi e confronto tra i libri, abbiamo utilizzato i tre diversi modelli di similarità
                 con il fine di generare dei file JSON che fossero
                 facilmente utilizzabili dal sito per visualizzare e
                 interagire con i risultati. L’applicazione del modello di confronto basato sulle parole ha richiesto
                 un codice relativamente semplice, che produce un
-                file JSON strutturato in cui, per ogni libro, vengono riportati i libri con cui e stato confrontato, `
-                insieme ai rispettivi punteggi di similarita. Questo `
+                file JSON strutturato in cui, per ogni libro, vengono riportati i libri con cui è stato confrontato, 
+                insieme ai rispettivi punteggi di similarità. Questo 
                 modello, confronta direttamente le liste di parole
                 frequenti di due libri, fornendo un unico punteggio
-                finale, rappresentativo della similarita complessiva `
+                finale, rappresentativo della similarità complessiva 
                 tra i due. Il modello BERT per il confronto tra frasi
-                ha richiesto un approccio piu complesso poich ` e´
-                fornisce un punteggio di similarita per ogni cop- `
-                pia di frasi e ogni libro presenta 30 frasi. Questo
+                ha richiesto un approccio piu complesso poiché
+                fornisce un punteggio di similarità per ogni coppia di frasi e ogni libro presenta 30 frasi. Questo
                 significa che il risultato del confronto tra due libri
                 non viene rappresentato da un singolo valore, ma
                 da 900 (30 x 30 frasi = 900 risultati). Inoltre,
-                questo tipo di analisi puo generare risultati con un `
-                ampio range di valori, a causa della casualita nel `
+                questo tipo di analisi può generare risultati con un 
+                ampio range di valori, a causa della casualità nel 
                 campionamento delle frasi per il confronto. Ad
                 esempio, una singola frase molto simile a un’altra
                 potrebbe generare un punteggio elevato, ma non
                 essere rappresentativa della relazione complessiva
-                tra i due libri. Per migliorare la validita dei risultati finali, e stata applicata una strategia di calcolo `
+                tra i due libri. Per migliorare la validità dei risultati finali, è stata applicata una strategia di calcolo 
                 della media ponderata. Questa media tiene conto
                 del numero di risultati sopra una certa soglia (nel
-                nostro caso, una soglia di similarita pari a 0.15), `
+                nostro caso, una soglia di similarità pari a 0.15), 
                 in modo che la presenza di un numero maggiore
-                di frasi simili valga piu dei punteggi individuali di `
+                di frasi simili valga più dei punteggi individuali di 
                 singole coppie di frasi. In altre parole, i punteggi
-                finali non dipendono solo dalla similarita di una `
+                finali non dipendono solo dalla similarità di una 
                 coppia di frasi, ma anche dalla frequenza con cui
                 le frasi di due libri risultano simili tra loro. Questo
-                approccio aiuta a ridurre l’impatto della casualita`
-                e a ottenere una valutazione piu affidabile e coer- `
-                ente della similarita tra i libri. Una volta calco- `
-                lata la media ponderata per ciascun confronto di
+                approccio aiuta a ridurre l’impatto della casualità
+                e a ottenere una valutazione piu affidabile e coerente della similarità tra i libri. Una volta calcolata la media ponderata per ciascun confronto di
                 frasi, anche questi risultati vengono salvati in un
                 file JSON, strutturato in modo da includere, per
                 ogni libro, le informazioni relative ai confronti con
-                gli altri libri, accompagnate dai punteggi di similarita medi ponderati.</p>
+                gli altri libri, accompagnate dai punteggi di similarità medi ponderati.</p>
         </section>
 
         <section id="sito-web">
             <h2>Sito Web</h2>
-            <p>Il sito web e stato realizzato con l’obiettivo di `
-                consentire agli utenti di individuare libri seman-
-                ticamente simili tra di loro. La homepage permette di effettuare una ricerca diretta utilizzando
+            <p>Il sito web è stato realizzato con l’obiettivo di 
+                consentire agli utenti di individuare libri semanticamente simili tra di loro. La homepage permette di effettuare una ricerca diretta utilizzando
                 una barra dedicata, oppure di esplorare il dataset
-                dei libri analizzati, da cui e possibile accedere `
-                a informazioni dettagliate sui singoli libri e, selezionandone uno, scoprire i tre titoli piu sim- `
-                ili. La similarita tra i libri ` e calcolata utiliz- `
-                zando un metodo che combina tre modelli distinti, ciascuno con un peso specifico. Il modello basato sulle parole ha un peso maggiore, seguito da quello basato su BERT, mentre il modello
+                dei libri analizzati, da cui è possibile accedere 
+                a informazioni dettagliate sui singoli libri e, selezionandone uno, scoprire i tre titoli piu simili. 
+                La similarità tra i libri è calcolata utilizzando un metodo che combina tre modelli distinti, ciascuno con un peso specifico. Il modello basato sulle parole ha un peso maggiore, seguito da quello basato su BERT, mentre il modello
                 basato su FrameNet, risultato meno affidabile, ha
                 un’influenza minore sul calcolo finale. Per ogni
-                libro simile viene mostrata una percentuale complessiva di similarita, offrendo un’indicazione sin- `
-                tetica ma significativa del grado di affinita. In `
-                aggiunta, e possibile accedere ai dettagli avanzati `
+                libro simile viene mostrata una percentuale complessiva di similarità,
+                offrendo un’indicazione sintetica ma significativa del grado di affinità. In 
+                aggiunta, e possibile accedere ai dettagli avanzati 
                 per confrontare i risultati forniti dai singoli modelli, evidenziando eventuali differenze nei calcoli
                 e nelle interpretazioni.
                 Il sito include anche una sezione informativa dedicata al progetto, in cui sono spiegati gli obiettivi
-                e le metodologie utilizzate. Dal punto di vista tecnico, il sito e stato sviluppato utilizzando HTML `
-                per la struttura, CSS per lo stile e la responsivita,`
+                e le metodologie utilizzate. Dal punto di vista tecnico, il sito e stato sviluppato utilizzando HTML 
+                per la struttura, CSS per lo stile
                 e JavaScript per rendere interattiva la navigazione
                 e per gestire dinamicamente i dati caricati.</p>
         </section>
