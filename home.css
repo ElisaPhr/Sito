@@ -51,8 +51,10 @@ header {
 
 .hero h1 {
     color: #8b026e;
-    font-size: 4em;
+    font-size: clamp(2em, 6vw, 4em); /* Dimensione minima, dinamica e massima */
     margin-bottom: 20px;
+    line-height: 1.2; /* Migliora la leggibilità per titoli lunghi */
+    word-wrap: break-word; /* Impedisce che il testo esca dal contenitore */
 }
 
 #search-bar {
