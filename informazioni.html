@@ -65,17 +65,17 @@
                 mettendo in pratica quanto appreso. L’obiettivo è
                 stato quello di approfondire e accrescere le competenze personali per migliorare la padronanza degli
                 strumenti acquisiti e progredire verso un approccio di lavoro piu autonomo e consapevole. Nel corso dello sviluppo, sono stati approfonditi anche altri aspetti legati alla programmazione, arricchendo ulteriormente il bagaglio di competenze.
-                Per perseguire questi obiettivi, si e scelto di orientare il progetto verso interessi personali legati
+                Per perseguire questi obiettivi, si è scelto di orientare il progetto verso interessi personali legati
                 alla letteratura e all’ambito dell’elaborazione del
-                linguaggio naturale (NLP), con particolare attenzione alla similarita semantica. Il progetto si presenta come una proposta alternativa per consigliare libri da leggere, andando oltre criteri
-                tradizionali come genere e autore, basandosi invece sulla similarita semantica tra i contenuti. Lo sviluppo del progetto puo essere diviso in tre parti: `
+                linguaggio naturale (NLP), con particolare attenzione alla similarità semantica. Il progetto si presenta come una proposta alternativa per consigliare libri da leggere, andando oltre criteri
+                tradizionali come genere e autore, basandosi invece sulla similarità semantica tra i contenuti. Lo sviluppo del progetto può essere diviso in tre parti:
                 costruzione di un dataset, elaborazione di codice
                 per l’analisi semantica e creazione di un sito web.</p>
         </section>
 
         <section id="creazione-dataset">
             <h2>Creazione Dataset</h2>
-            <p>Per condurre le analisi di similarita semantica e sviluppare un sito affidabile, la prima fase e consistita nella creazione di un dataset. Abbiamo
+            <p>Per condurre le analisi di similarità semantica e sviluppare un sito affidabile, la prima fase è consistita nella creazione di un dataset. Abbiamo
                 scelto di raccogliere un insieme di libri digitali
                 da fonti affidabili, come Open Library e Gutenberg Library, per estrarre frasi casuali e parole frequenti, arricchendo i dati con informazioni strutturate, tra cui titolo, autore, anno di pubblicazione,
                 genere e immagine di copertina.</p>
@@ -88,44 +88,44 @@
                     navigazione, analisi del codice HTML, download
                     dei file PDF e salvataggio in una directory dedicata, con ogni file nominato in base al titolo del
                     libro
-                    Durante questo processo, il codice e stato progettato per gestire eventuali errori, come file mancanti
+                    Durante questo processo, il codice è stato progettato per gestire eventuali errori, come file mancanti
                     o problemi di rete, garantendo così un’esecuzione
-                    robusta. Inoltre, e stato inserito un ritardo di due secondi tra una richiesta e l’altra per rispettare
+                    robusta. Inoltre, è stato inserito un ritardo di due secondi tra una richiesta e l’altra per rispettare
                     i limiti del server e prevenire il blocco del programma.</p>
             </section>
 
             <section id="conversione-correzzione">
                 <h3>Conversione in txt e Correzione dei Testi</h3>
-                <p>Dopo aver completato la raccolta dei libri in formato PDF, il passo successivo e stato estrarre il contenuto testuale dai file per renderlo utilizzabile
+                <p>Dopo aver completato la raccolta dei libri in formato PDF, il passo successivo è stato estrarre il contenuto testuale dai file per renderlo utilizzabile
                     nelle successive analisi. A tale scopo, abbiamo
-                    scritto un codice Python che si avvale della libreria PyPDF2, progettato per leggere un file PDF e
+                    scritto un codice Python che si avvale della libreria Pdfplumber, progettato per leggere un file PDF e
                     restituirne il testo completo; per ciascuna pagina,
                     il testo viene estratto e aggiunto a una stringa che,
-                    alla fine del processo, contiene il contenuto testuale integrale del libro. Questo approccio e stato scelto per la sua semplicita ed efficienza nel gestire 
-                    file PDF di diverse dimensioni e strutture. Tuttavia, in alcuni casi, l’estrazione del testo puo essere influenzata dalla qualita della scansione del `
+                    alla fine del processo, contiene il contenuto testuale integrale del libro. Questo approccio è stato scelto per la sua semplicità ed efficienza nel gestire 
+                    file PDF di diverse dimensioni e strutture. Tuttavia, in alcuni casi, l’estrazione del testo puo essere influenzata dalla qualità della scansione del 
                     PDF o dal formato del documento stesso, come
                     nel caso di file composti da immagini invece che
                     da testo selezionabile. Per questo, dopo aver estratto il contenuto dai PDF, abbiamo corretto e normalizzato il testo. Per questa fase, abbiamo optato per un approccio basato su textblob e sulla
                     libreria wordninja. Il codice sviluppato esegue
                     la normalizzazione in piu passaggi. Per prima cosa, sfrutta textblob per correggere in automatico
-                    i testi, dopodiche utilizza le espressioni regolari per eliminare le interruzioni di linea e gli spazi
+                    i testi, dopodiché utilizza le espressioni regolari per eliminare le interruzioni di linea e gli spazi
                     consecutivi. Successivamente, si avvale di wordninja per dividere parole unite in modo errato, un
                     problema comune nei testi derivati da estrazioni
                     PDF. Una volta normalizzato, il testo viene salvato
-                    in un nuovo file.
+                    in un nuovo file in formato .txt.
                     </p>
             </section>
 
             <section id="gutenberg">
-                <h3>Gutenberg</h3>
+                <h3>Estrazione libri da Gutenberg</h3>
                 <p>Per l’estrazione di testi dal corpus di Gutenberg
                     di NLTK, e stato sviluppato un processo che recupera contenuti testuali e organizza i metadati in
                     un file JSON in modo sistematico. Il corpus viene
                     scaricato attraverso NLTK e i dati archiviati in una
                     directory dedicata. Per ogni libro vengono estratti
-                    il testo completo, il titolo e l’autore (o ”Sconosciuto” se mancante) e salvati in file di testo col
-                    nome originale del file Gutenberg. I metadati vengono raccolti in un dizionario Python e esportati
-                    in JSON. Questo approccio e stato esteso ai libri di Open Books, arricchendo con ulteriori informazioni come genere e immagini di copertina, in
+                    il testo completo, il titolo e l’autore e salvati in file di testo col
+                    nome originale del file Gutenberg. I metadati vengono raccolti in un dizionario Python ed esportati
+                    in JSON. Questo approccio è stato esteso ai libri di Open Library, arricchendo con ulteriori informazioni come genere e immagini di copertina, in
                     modo da conservare i dati completi di tutti i libri
                     utilizzati.</p>
             </section>
@@ -133,24 +133,23 @@
             <section id="estrazione-frasi">
                 <h3>Estrazione Frasi Casuali</h3>
                 <p>Una volta ottenuti i file in formato txt corretti
-                    e completi, e seguita l’estrazione di frasi casuali dai libri. Poiche i metodi di analisi semantica non funzionano su segmenti di testo piu lunghi, `
-                    si e scelto di selezionare 30 frasi per ciascun libro. Questa fase ha comportato la creazione di
+                    e completi, è seguita l’estrazione di frasi casuali dai libri. Poiché i metodi di analisi semantica non funzionano su segmenti di testo piu lunghi, 
+                    si è scelto di selezionare 30 frasi per ciascun libro. Questa fase ha comportato la creazione di
                     un algoritmo in grado di individuare frasi complete, evitando sequenze di testo troppo brevi o
                     che potessero risultare non pertinenti. Il testo è stato ripulito da caratteri speciali come i simboli
                     di backslash, barra, asterisco e accento circostante;
-                    trattando anche i casi delle abbreviazioni, che non
-                    indicano la fine di una frase per evitare che il programma trattasse erroneamente questi casi come
+                    trattando anche i casi delle abbreviazioni per evitare che il programma trattasse erroneamente questi casi come
                     conclusioni di frasi. Per isolare correttamente le
-                    frasi, e stato utilizzato un pattern di espressioni regolari che prendeva in considerazione i segni di
-                    punteggiatura, implementando poi un filtro che escludeva le frasi troppo brevi, quelle scritte interamente in maiuscolo o quelle che contenevano piu`
+                    frasi, è stato utilizzato un pattern di espressioni regolari che prendeva in considerazione i segni di
+                    punteggiatura, implementando poi un filtro che escludeva le frasi troppo brevi, quelle scritte interamente in maiuscolo o quelle che contenevano più 
                     di una sequenza consecutiva di lettere maiuscole,
                     in quanto ritenute non idonee per il campione.
                     Una volta ottenute le frasi, il programma selezionava casualmente 30 frasi, assicurandosi che queste
                     rispettassero i criteri di lunghezza e formato. Ogni
-                    frase e stata controllata manualmente per correggere eventuali errori e garantire che fosse completamente leggibile e corretta dal punto di vista
+                    frase è stata controllata manualmente per correggere eventuali errori e garantire che fosse completamente leggibile e corretta dal punto di vista
                     sintattico. Il numero di frasi che abbiamo scelto
-                    di estrarre rappresenta un compromesso tra la capacita di calcolo dei nostri software e la necessità
-                    di garantire la massima affidabilita possibile nei risultati. Tuttavia, suggeriamo di aumentare il numero di frasi estratte se possibile, poiche un corpus più ampio migliora la probabilit ` a che il campione `
+                    di estrarre rappresenta un compromesso tra la capacità di calcolo dei nostri software e la necessità
+                    di garantire la massima affidabilità possibile nei risultati. Tuttavia, suggeriamo di aumentare il numero di frasi estratte se possibile, poiché un corpus più ampio migliorà la probabilità che il campione 
                     sia più rappresentativo. </p>
             </section>
 
@@ -159,7 +158,7 @@
                 <p>Nel processo di estrazione delle parole frequenti,
                     il codice sviluppato si occupa di leggere e processare il testo da ciascun file per estrarre un insieme
                     di 50 parole rilevanti in base alla loro frequenza.
-                    L’obiettivo e ottenere un elenco delle parole più
+                    L’obiettivo è ottenere un elenco delle parole più
                     comuni all’interno di ciascun libro, mentre si effettuano diverse operazioni di pulizia e filtraggio per
                     garantire che solo le parole significative vengano
                     considerate. Il testo, dopo essere stato normalizzato con anche la rimozione della punteggiatura,
