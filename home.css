@@ -42,19 +42,22 @@ header {
 /* Hero Section */
 .hero {
     text-align: center;
-    padding: 50px 20px;
+    padding: 50px 10px; /* Riduce il padding laterale per dispositivi piccoli */
     background-color: #ffffff;
     box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
     margin: 20px;
     border-radius: 8px;
+    overflow: hidden; /* Impedisce contenuti fuoriusciti */
 }
 
 .hero h1 {
     color: #8b026e;
-    font-size: clamp(2em, 6vw, 4em); /* Dimensione minima, dinamica e massima */
+    font-size: clamp(2em, 6vw, 4em); /* Dinamico e scalabile */
     margin-bottom: 20px;
-    line-height: 1.2; /* Migliora la leggibilità per titoli lunghi */
-    word-wrap: break-word; /* Impedisce che il testo esca dal contenitore */
+    line-height: 1.2;
+    word-wrap: break-word; /* Gestisce le parole lunghe */
+    overflow-wrap: break-word; /* Compatibilità con più browser */
+    text-align: center; /* Mantiene il titolo centrato */
 }
 
 #search-bar {
@@ -153,3 +156,10 @@ footer {
     color: white;
     margin-top: 20px;
 }
+@media (max-width: 480px) {
+    .hero h1 {
+        font-size: 2em; /* Riduce ulteriormente il font */
+        margin-bottom: 15px;
+    }
+}
+
