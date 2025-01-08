@@ -131,7 +131,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
             <section id="gutenberg">
                 <h3>Estrazione libri da Gutenberg</h3>
                 <p>Per l’estrazione di testi dal corpus di Gutenberg
-                    di NLTK, e stato sviluppato un processo che recupera contenuti testuali e organizza i metadati in
+                    di NLTK, è stato sviluppato un processo che recupera contenuti testuali e organizza i metadati in
                     un file JSON in modo sistematico. Il corpus viene
                     scaricato attraverso NLTK e i dati archiviati in una
                     directory dedicata. Per ogni libro vengono estratti
@@ -187,7 +187,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                     con almeno tre lettere e che non contengano caratteri tipografici particolari come apici o virgolette
                     vengono mantenute. Infine, una volta che tutte le
                     parole rilevanti sono state selezionate, viene calcolata la loro frequenza d’occorrenza nel testo, e
-                    viene restituito un elenco delle parole piu comuni, ordinate per frequenza.</p>
+                    viene restituito un elenco ordinato delle parole piu comuni.</p>
             </section>
 
             <section id="dataset">
@@ -215,8 +215,8 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                     , un enorme database che raggruppa nomi, verbi, aggettivi e avverbi in cognitive synonyms, insiemi di sinonimi che per il
                     parlante nativo indicano un concetto specifico. I
                     synset sono collegati tra loro attraverso relazioni
-                    concettuali-semantiche e lessicali, come la relazione di iperonimia, la quale e stata scelta per 
-                    il calcolo dato che e la relazione codificata con 
+                    concettuali-semantiche e lessicali, come la relazione di iperonimia, che è stata scelta per 
+                    il calcolo dato e risulta essere la relazione codificata con 
                     maggiore frequenza su WordNet. Inoltre, i synset
                     contengono una breve definizione, gloss, la quale
                     comprende anche una o piu frasi brevi con esempi 
@@ -227,7 +227,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                             la quale sfrutta la gerarchia concettuale di
                             WordNet, dove valori più alti indicano relazioni semantiche più strette.</li>
                         <li> La similarita basata sulle gloss, la quale utilizza le definizioni e gli esempi dei synset, aggregandoli in un gloss esteso, che viene successivamente preprocessato per rimuovere
-                            stopword e punteggiatura, seguito dalla lemmatizzazione. L'idea e molto semplice: se due 
+                            stopword e punteggiatura, seguito dalla lemmatizzazione. L'idea è molto semplice: se due 
                             parole sono semanticamente simili, allora le
                             glosse estese avranno più parole in comune. 
                             La similarità tra gloss estesi viene valutata utilizzando il coefficiente di similarità di Jaccard, concentrandosi su contenuti comuni tra
@@ -249,7 +249,8 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
 
                 <section id="bert">
                     <h4>BERT</h4>
-                    <p>Il primo sistema di calcolo della similarità semantica tra frasi e stato implementato utilizzando BERT, in particolare il modello bert-base-uncased,
+                    <p>Il primo sistema di calcolo della similarità semantica tra frasi è
+                        stato implementato utilizzando BERT, in particolare il modello bert-base-uncased,
                         pre-addestrato su un ampio corpus di testi in
                         inglese, della libreria Hugging Face Transformers. Il tokenizzatore di BERT segmenta le frasi
                         in token e li converte in rappresentazioni numeriche compatibili con il modello. Inoltre, il tokenizzatore gestisce automaticamente la lunghezza
@@ -260,7 +261,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                         della memoria e velocizzare il calcolo. Infine, la
                         similarità tra due frasi è determinata confrontando
                         i loro rispettivi embedding tramite la similarità
-                        coseno. Il codice e stato poi testato con il dataset 
+                        coseno. Il codice è stato poi testato con il dataset 
                         GLUE di STS-benchmark, ottenendo una correlazione di Pearson: 0.87 e una correlazione di
                         spearman: 0.86; sono punteggi buoni, anche se lo
                         stato dell’arte attuale si aggira attorno allo 0.92.</p>
@@ -271,10 +272,10 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                     <p>L’ultimo approccio che abbiamo sviluppato si
                         basa vagamente sul lavoro di basile-etal-2018-measuring. Il nostro approccio propone un
                         metodo per calcolare la similarità semantica utilizzando le informazioni combinate di FrameNet e
-                        WordNet, combinando la struttura semantica dai
-                        tipi di frame di FrameNet con la ricchezza del
+                        WordNet, unendo la struttura semantica dai
+                        tipi di frame di FrameNet alla ricchezza del
                         database di WordNet. La semantica dei frame
-                        e stata sviluppata di Fillmore, mettendo in relazione significato linguistico e conoscenza enciclopedica del mondo. In particolare, un frame è
+                        è stata sviluppata da Fillmore, mettendo in relazione significato linguistico e conoscenza enciclopedica del mondo. In particolare, un frame è
                         definitivo come una struttura concettuale simile a
                         una scena che descrive un particolare tipo di situazione, oggetto o evento, insieme ai partecipanti
                         e agli elementi necessari per quel frame. Le parole che evocano un frame sono definite come lexical units (LUs), mentre i frame elements sono le
@@ -285,7 +286,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                     <ul>
                         <li>Relatedness tra Frame Types: i frame semantici di FrameNet sono identificati tramite
                             le Lexical Units (LUs) associate alle parole
-                            di ciascuna frase. La similarità tra i tipi di `
+                            di ciascuna frase. La similarità tra i tipi di
                             frame è calcolata come la media delle similarità tra tutte le coppie di frame, utilizzando 
                             una soglia per filtrare similarità irrilevanti.</li>
                         <li>Relatedness tra Frame Elements: i frame elements di ciascun frame sono analizzati per
@@ -296,7 +297,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                             elementi semantici da ciascun token.
                             </li>
                     </ul>
-                    <p>Per velocizzare il calcolo è stata inclusa una parte `
+                    <p>Per velocizzare il calcolo è stata inclusa una parte
                     di precaricamento e parallelizzazione, evitando
                     calcoli ripetitivi e migliorando l’efficienza. Il
                     codice è stato testato con il dataset GLUE di STS- `
@@ -365,7 +366,7 @@ Il risultato finale è un sito web interattivo, progettato per presentare raccom
                 per confrontare i risultati forniti dai singoli modelli, evidenziando eventuali differenze nei calcoli
                 e nelle interpretazioni.
                 Il sito include anche una sezione informativa dedicata al progetto, in cui sono spiegati gli obiettivi
-                e le metodologie utilizzate. Dal punto di vista tecnico, il sito e stato sviluppato utilizzando HTML 
+                e le metodologie utilizzate. Dal punto di vista tecnico, il sito è stato sviluppato utilizzando HTML 
                 per la struttura, CSS per lo stile
                 e JavaScript per rendere interattiva la navigazione
                 e per gestire dinamicamente i dati caricati.</p>
